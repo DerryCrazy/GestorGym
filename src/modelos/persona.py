@@ -1,10 +1,23 @@
-#Clase base para heredar a usuario e instructor
 class Persona:
-    def __init__(self, id_persona, nombre, edad, correo): #Constructor 
-        self.id_persona = id_persona
-        self.nombre = nombre
-        self.edad = edad #Constructor de la clase persona
-        self.correo = correo
+    def __init__(self, nombre, edad, dni):
+        self._nombre = nombre
+        self._edad = edad
+        self._dni = dni
 
-    def mostrar_info(self):# Devuelve toda la info que contiene esa persona 
-        return f"ID: {self.id_persona}, Nombre: {self.nombre}, Edad: {self.edad}, Correo: {self.correo}"
+    def get_nombre(self):
+        return self._nombre
+
+    def set_nombre(self, nombre):
+        self._nombre = nombre
+
+    def get_edad(self):
+        return self._edad
+
+    def set_edad(self, edad):
+        self._edad = edad
+
+    def get_dni(self):
+        return self._dni
+
+    def set_dni(self, dni):
+        self._dni = dni
