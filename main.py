@@ -1,8 +1,8 @@
-from modelos.usuario import Usuario
-from servicios.pago import Pago
-from servicios.reporte import Reporte
-from servicios.inventario import Producto
-from servicios.asistencia import Asistencia
+from usuario import Usuario
+from pago import Pago
+from reporte import Reporte
+from inventario import Inventario
+from asistencia import Asistencia
 
 def main():
     while True:
@@ -21,7 +21,7 @@ def main():
         elif opcion == "3":
             Reporte.menu_reportes()
         elif opcion == "4":
-            Producto.menu_inventario()
+            Inventario.menu_inventario()
         elif opcion == "5":
             Asistencia.menu_asistencia()
         elif opcion == "6":

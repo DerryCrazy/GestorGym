@@ -1,4 +1,4 @@
-from modelos.persona import Persona
+from persona import Persona
 
 class Usuario(Persona):
     def __init__(self, nombre, edad, dni, correo):

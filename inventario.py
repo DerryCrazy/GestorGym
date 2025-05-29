@@ -1,4 +1,4 @@
-class Producto:
+class Inventario:
     def __init__(self, nombre, cantidad):
         self._nombre = nombre
         self._cantidad = cantidad
@@ -41,11 +41,11 @@ class Producto:
             if opcion == "1":
                 nombre = input("Nombre del producto: ")
                 cantidad = input("Cantidad: ")
-                producto = Producto(nombre, cantidad)
+                producto = Inventario(nombre, cantidad)
                 producto.guardar_en_archivo()
                 print("Producto guardado.")
             elif opcion == "2":
-                Producto.mostrar_inventario()
+                Inventario.mostrar_inventario()
             elif opcion == "3":
                 break
             else:
