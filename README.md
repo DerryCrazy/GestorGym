@@ -12,15 +12,15 @@
 - Diseño modular y fácil de mantener
 
 ## 🔧 Pendientes / Roadmap
- Añadir exportación de reportes (PDF o Excel)
+- Añadir exportación de reportes (PDF o Excel)
 
- Implementar historial de asistencia
+- Implementar historial de asistencia
 
- Sistema de autenticación de usuarios
+- Sistema de autenticación de usuarios
 
- Soporte para diferentes tipos de membresía
+- Soporte para diferentes tipos de membresía
 
- Diseño responsive para diferentes resoluciones
+- Diseño responsive para diferentes resoluciones
 
 ## ⚙️ Tecnologías utilizadas
 
