@@ -11,25 +11,28 @@
 - Almacenamiento local con SQLite
 - Diseño modular y fácil de mantener
 
+## 🔧 Pendientes / Roadmap
+ Añadir exportación de reportes (PDF o Excel)
+
+ Implementar historial de asistencia
+
+ Sistema de autenticación de usuarios
+
+ Soporte para diferentes tipos de membresía
+
+ Diseño responsive para diferentes resoluciones
 
 ## ⚙️ Tecnologías utilizadas
 
 - Python 3.x
+- Tkinter (interfaz gráfica)
+- SQLite (base de datos integrada)
+- Módulos estándar: `sqlite3`, `os`, `tkinter.messagebox`
 
 ## 🚀 Cómo ejecutar el proyecto
+
 ### 1. Clona el repositorio
 
 ```bash
 git clone https://github.com/DerryCrazy/GestorGym.git
 cd GestorGym
-
-### 🔧 Pendientes / Roadmap
- -Añadir exportación de reportes (PDF o Excel)
-
- -Implementar historial de asistencia
-
- -Sistema de autenticación de usuarios
-
- -Soporte para diferentes tipos de membresía
-
- -Diseño responsive para diferentes resoluciones
