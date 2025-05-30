@@ -3,6 +3,8 @@ from pago import Pago
 from reporte import Reporte
 from inventario import Inventario
 from asistencia import Asistencia
+from datetime import datetime
+from asistencia import Asistencia
 
 def main():
     while True:
