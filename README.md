@@ -36,3 +36,9 @@
 ```bash
 git clone https://github.com/DerryCrazy/GestorGym.git
 cd GestorGym
+```
+
+
+### Version 2/ Asistencia 
+-Se mejoro la presentacion y el manejo de busqueda, tambien se hizo una validacion en cuanto el formato de fecha 
+- Heriberto H.D
